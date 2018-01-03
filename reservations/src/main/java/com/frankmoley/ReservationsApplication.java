@@ -16,6 +16,6 @@ public class ReservationsApplication {
 
 	@RequestMapping(value = "/greeting", method = RequestMethod.GET)
 	public String sayHello() {
-		return "asd";
+		return "Hello World";
 	}
 }
